@@ -29,6 +29,9 @@
 - `screenshots/task_detail_android.png`  
 - `screenshots/firestore_data.png`  
 
+# apk added
+- `screenshots/taskmanager.apk` 
+
 # API DATA
 [
   {
@@ -37,13 +40,28 @@
     "title": "delectus aut autem",
     "completed": false
   },
-  {
-    "userId": 1,
-    "id": 2,
-    "title": "quis ut nam facilis et officia qui",
-    "completed": false
-  },
-]
+  ]
+
+# Install Dependencies
+flutter pub get
+
+# Firebase Setup
+
+Download google-services.json and place it in:
+android/app/
+
+Download GoogleService-Info.plist and place it in:
+ios/Runner/
+
+# API Configuration
+No API key required. Uses:
+https://jsonplaceholder.typicode.com/todos
+
+# Run the App
+flutter clean
+flutter run
+flutter build apk --no-tree-shake-icons
+
 
 ##  Tasks Summary
 
