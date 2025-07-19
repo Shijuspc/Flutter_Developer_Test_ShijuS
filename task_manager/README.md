@@ -23,14 +23,20 @@
 ---
 
 ##  Screenshots
+Task List 
+<img src="../screenshot/task_list_android.png" width="300"/>
 
- Replace below with actual screenshots  
-- `screenshots/task_list_android.png`  
-- `screenshots/task_detail_android.png`  
-- `screenshots/firestore_data.png`  
+Task Details
+<img src="../screenshot/task_detail_android.png" width="300"/>
+
+firestore data
+<img src="../screenshot/firestore_data.png" width="500"/>
+
+API Data import firestore
+<img src="../screenshot/api_data_stored.png" width="300"/>
 
 # apk added
-- `screenshots/taskmanager.apk` 
+[Download APK](../screenshots/taskmanager.apk)
 
 # API DATA
 [
@@ -71,3 +77,8 @@ flutter build apk --no-tree-shake-icons
  Task 3  API integration with caching 
  Task 4  Optimizations (Obx, cache, indexed query) 
 
+# iOS Build Status
+ iOS Build Not Included
+ No access to paid Apple Developer Account or test device.
+ Code is iOS compatible and tested on Android.
+ iOS setup files (like GoogleService-Info.plist) are included.
